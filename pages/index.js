@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer' 
 import Link from 'next/link'
-import homestyles from '../styles/Home.module.css'
+import homestyles from '../styles/Home.module.scss'
 
 export default function Home() {
   return (
