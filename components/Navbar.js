@@ -11,7 +11,7 @@ const Navbar = () => {
     >
       
       <nav>
-      <div style={{ width: "100%", flexDirection: "column" }}>
+      <div style={{ width: 470}}>
       <a href="/">
         <img
           alt=""
@@ -20,7 +20,7 @@ const Navbar = () => {
         />
         </a>
         </div>
-        
+        <div style={{flexDirection: "column"}}>
         <a className="ourHistory" styles={styles.ourHistory} href="/our-history">Our History </a>
         <a className="productDevelopment" styles={styles.productDevelopment} href="/product-development">
           Product Development 
@@ -28,7 +28,7 @@ const Navbar = () => {
         <a className="Impact" styles={styles.impact} href="/impact">Impact </a>
         <a styles={styles.members} href="/members">Members</a>
         <a styles={styles.clients} href="/clients">Clients</a>
-       
+        </div>
         </nav>
       
       <div styles={styles.line1} />
