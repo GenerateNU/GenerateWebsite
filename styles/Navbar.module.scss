@@ -4,11 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
   }
   .flexWrapperOne {
     margin-bottom: 29px;
     padding: 0 0 0 24px;
     display: flex;
+    flex-Direction: row;
     align-items: center;
   }
   .generateLogoText2 {
@@ -21,10 +23,10 @@
     top: 46px;
     // @include space-mono-18-regular;
     color: black;
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    align-items: flex-start;
     letter-spacing: -0.015em;
-    margin-right: 51px;
+    margin-right: 40px;
     font-family: Space Mono;
     font-style: normal;
     font-weight: normal;
@@ -42,8 +44,8 @@
     font-size: 18px;
     line-height: 27px;
     /* identical to box height */
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    align-items: flex-start;
     letter-spacing: -0.015em;
     color: #000000;
   }
@@ -87,3 +89,6 @@
     height: 1px;
     background-color: black;
   }
+  .leftLinks{
+   flex:1 1 200px;
+}

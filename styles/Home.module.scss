@@ -1,5 +1,5 @@
 .container {
-  background: #FFFFFF;
+  // background: #FFFFFF;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -116,6 +116,21 @@
   height: 1em;
 }
 
+.component1 {
+  padding: 177px 305px 176px;
+  background-image: url("https://static.overlay-tech.com/assets/4503c5d0-04c8-414f-ad94-f16ecfa42700.png");
+  background-size: 100% 100%;
+}
+.rectangleLogo {
+position: absolute;
+width: 698px;
+height: 151px;
+left: 375px;
+top: 303px;
+}
+.generateLogoText3 {
+  position: relative;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
