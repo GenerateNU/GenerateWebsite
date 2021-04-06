@@ -1,8 +1,8 @@
-##Generate Website
+# Generate Website
 
-#To run the software
-npm run dev
+## To run the software
+  `npm run dev`
 
-#deploy the website
-next export
-then push that to gh-pages branch
+## deploy the website
+1. Make changes
+2. then push that to gh-pages branch

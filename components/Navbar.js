@@ -11,7 +11,11 @@ const Navbar = () => {
     >
       
       <nav>
+<<<<<<< HEAD
       <div style={{ width: "100%", flexDirection: "column" }}>
+=======
+      <div style={{ width: 470}}>
+>>>>>>> 1cb6ad10f2787d9cc4c52c6d58fcd1e5c839b000
       <a href="/">
         <img
           alt=""
@@ -20,7 +24,11 @@ const Navbar = () => {
         />
         </a>
         </div>
+<<<<<<< HEAD
         
+=======
+        <div style={{flexDirection: "column"}}>
+>>>>>>> 1cb6ad10f2787d9cc4c52c6d58fcd1e5c839b000
         <a className="ourHistory" styles={styles.ourHistory} href="/our-history">Our History </a>
         <a className="productDevelopment" styles={styles.productDevelopment} href="/product-development">
           Product Development 
@@ -28,7 +36,11 @@ const Navbar = () => {
         <a className="Impact" styles={styles.impact} href="/impact">Impact </a>
         <a styles={styles.members} href="/members">Members</a>
         <a styles={styles.clients} href="/clients">Clients</a>
+<<<<<<< HEAD
        
+=======
+        </div>
+>>>>>>> 1cb6ad10f2787d9cc4c52c6d58fcd1e5c839b000
         </nav>
       
       <div styles={styles.line1} />
