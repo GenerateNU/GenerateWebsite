@@ -1,11 +1,9 @@
-const PDevleopment = () => {
-    return (  
-        <div>
-            <h1>Product Development</h1>
-            <p>Product Development Info goes here</p>
+const PDevleopment = () => (
+  <div>
+    <h1>Product Development</h1>
+    <p>Product Development Info goes here</p>
 
-        </div>
-    );
-}
- 
+  </div>
+);
+
 export default PDevleopment;

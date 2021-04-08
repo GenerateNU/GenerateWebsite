@@ -1,15 +1,17 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer' 
+import PropTypes from 'prop-types';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
-const Layout = ({ children}) => {
-
-    return (
-        <div className="content">
-            <Navbar />
-            { children }
-            <Footer />
-        </div>
-    );
+export default function Layout({ children }) {
+  return (
+    <div className="content">
+      <Navbar />
+      { children }
+      <Footer />
+    </div>
+  );
 }
- 
-export default Layout;
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+};

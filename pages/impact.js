@@ -1,11 +1,9 @@
-const Impact = () => {
-    return (  
-        <div>
-            <h1>Impact</h1>
-            <p>Impact Info goes here</p>
+const Impact = () => (
+  <div>
+    <h1>Impact</h1>
+    <p>Impact Info goes here</p>
 
-        </div>
-    );
-}
- 
+  </div>
+);
+
 export default Impact;
