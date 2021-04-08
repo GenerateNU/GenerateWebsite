@@ -1,9 +1,25 @@
-const debug = process.env.NODE_ENV !== 'production'
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 
+const {
+  EMAIL_JS_SERVICE,
+  EMAIL_JS_TEMPLATE,
+  EMAIL_JS_USER,
+  CAPTCHA_SITE_KEY,
+  GTAG,
+  ON_GITHUB_PAGES,
+} = process.env;
+
+const basePath = ON_GITHUB_PAGES ? '/GenerateWebsite' : '';
+const assetPrefix = ON_GITHUB_PAGES ? '/GenerateWebsite/' : '';
+
 const env = {
-  CANONICAL_URL: 'www.insertGenerateURLHERE.com',
+  CANONICAL_URL: 'https://generatewebsite.edu',
+  EMAIL_JS_SERVICE,
+  EMAIL_JS_TEMPLATE,
+  EMAIL_JS_USER,
+  CAPTCHA_SITE_KEY,
+  GTAG,
 };
 
 module.exports = withPlugins([
@@ -19,5 +35,7 @@ module.exports = withPlugins([
   }],
   {
     env,
+    basePath,
+    assetPrefix,
   },
 ]);
