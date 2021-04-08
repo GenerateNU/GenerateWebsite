@@ -1,12 +1,18 @@
-import Layout from '../components/layout'
-import '../styles/global.css'
+import PropTypes from 'prop-types';
+import Layout from '../components/layout';
+import '../styles/global.css';
 
-
-function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
   return (
-      <Layout>
-          <Component {...pageProps} />
-      </Layout>
-  )
+    <Layout>
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
-export default App
+
+App.propTypes = {
+  Component: PropTypes.func.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  pageProps: PropTypes.object.isRequired,
+};

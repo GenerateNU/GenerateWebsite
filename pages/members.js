@@ -1,11 +1,9 @@
-const Members= () => {
-    return (  
-        <div>
-            <h1>Members</h1>
-            <p>Members Info goes here</p>
+const Members = () => (
+  <div>
+    <h1>Members</h1>
+    <p>Members Info goes here</p>
 
-        </div>
-    );
-}
- 
+  </div>
+);
+
 export default Members;
