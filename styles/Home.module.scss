@@ -1,12 +1,18 @@
 .container {
-  background: #FFFFFF;
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  alignItems: center;
+  height: 400px;
 }
+
+.image {
+    flexGrow:1;
+    height:504px;
+    width:1308px;
+    alignItems: 'center';
+    justifyContent:'center';
+  }
 
 .main {
   padding: 5rem 0;
@@ -15,16 +21,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer {
- /* Footer */
-  position: absolute;
-  width: 1440px;
-  height: 708px;
-  left: 0px;
-  top: 3030px;
-  background: rgba(229, 229, 229, 0.2);
 }
 
 .footer img {
@@ -38,7 +34,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -48,11 +44,15 @@
   text-decoration: underline;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
+.titleMission {
+    fontFamily: Space Mono;
+    alignItems: 'center';
+    height:50.32px;
+    weight:700;
+    font-size: 28px;
+    color: #18A0FB;
+    text-align: center;
+  }
 
 .title,
 .description {
@@ -61,7 +61,10 @@
 
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  fontFamily: Space Mono;
+  alignItems: 'center';
+  text-align: center;
+  font-size: 18px;
 }
 
 .code {
@@ -97,8 +100,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .card h3 {

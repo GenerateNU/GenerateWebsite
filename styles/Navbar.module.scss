@@ -6,7 +6,7 @@
     align-items: flex-start;
   }
   .flexWrapperOne {
-    margin-bottom: 29px;
+    margin-bottom: 20px;
     padding: 0 0 0 24px;
     display: flex;
     flexDirection: row;
@@ -15,29 +15,45 @@
   .generateLogoText2 {
     margin-right: 407px;
   }
-  .ourHistory {
+  .wordsOnNavBar {
+    width: 216px;
     height: 27px;
-    width: 127px;
-    left: 562px;
+    left: 740px;
     top: 46px;
-    // @include space-mono-18-regular;
-    color: black;
-    display: inline-block;
-    align-items: flex-start;
-    letter-spacing: -0.015em;
-    margin-right: 40px;
-    font-family: Space Mono;
+    fontFamily: Space Mono;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    
+    line-height: 27px;
+    /* identical to box height */
+    display: inline-block;
+    align-items: flex-start;
+    letter-spacing: -0.015em;
+    color: #000000;;
+  }
+
+  .ourHistory {
+    width: 216px;
+    height: 27px;
+    left: 740px;
+    top: 46px;
+    fontFamily: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: inline-block;
+    align-items: flex-start;
+    letter-spacing: -0.015em;
+    color: #000000;;
   }
   .productDevelopment {
     width: 216px;
     height: 27px;
     left: 740px;
     top: 46px;
-    font-family: Space Mono;
+    fontFamily: Space Mono;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -54,9 +70,9 @@
     height: 27px;
     left: 1007px;
     top: 46px;
-    font-family: Space Mono;
-    font-style: normal;
-    font-weight: normal;
+    fontFamily: Space Mono;
+    fontStyle: normal;
+    fontWeight: normal;
     font-size: 18px;
         line-height: 27px;
     /* identical to box height */
@@ -70,6 +86,7 @@
     height: 27px;
     width: 82px;
     // @include space-mono-18-regular;
+    fontFamily: Space Mono;
     color: black;
     display: flex;
     align-items: center;
@@ -79,12 +96,13 @@
     height: 27px;
     width: 86px;
     // @include space-mono-18-regular;
+    fontFamily: Space Mono;
     color: black;
     display: flex;
     align-items: center;
   }
   .line1 {
-    width: 1316px;
+    width: 1320px;
     height: 1px;
     background-color: black;
   }
