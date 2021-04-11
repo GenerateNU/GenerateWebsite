@@ -19,7 +19,7 @@ export default function Footer() {
       		<Image src={generateLogo}/> 
     		</Col>
     		<Col>
-      		<Image src={generateLogo} rounded />
+      		<Image src={generateLogo}/>
    			 </Col>
           </Row>
           </Container>

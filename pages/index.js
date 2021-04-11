@@ -3,8 +3,7 @@ import backgroundImage from '../public/images/HomepageTop.png'
 import Image from 'react-bootstrap/Image'
 
 const Home = () => (
-    <div className={homestyles.container} >
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <div>
       <Image src={backgroundImage} fluid/>
       <div style={{paddingTop: '20px'}}/>
       <div className={homestyles.titleMission}>
