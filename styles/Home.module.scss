@@ -1,10 +1,4 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  alignItems: center;
-  height: 400px;
-}
+
 
 .image {
     flexGrow:1;
@@ -21,6 +15,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.boldHeader,
+.bold {
+    fontFamily: Space Mono;
+    align-items: center;
+    height:50.32px;
+    weight:700;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold 
+  }
+
+.boldHeader{
+  fontFamily: Sans;
+  font-size: 25px;
 }
 
 .footer img {
@@ -46,7 +56,7 @@
 
 .titleMission {
     fontFamily: Space Mono;
-    alignItems: 'center';
+    align-items: center;
     height:50.32px;
     weight:700;
     font-size: 28px;
@@ -81,6 +91,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  fontFamily: Space Mono;
   max-width: 800px;
   margin-top: 3rem;
 }
@@ -118,6 +129,7 @@
 .logo {
   height: 1em;
 }
+
 
 @media (max-width: 600px) {
   .grid {
