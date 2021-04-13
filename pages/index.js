@@ -9,6 +9,9 @@ import Figure from 'react-bootstrap/Figure'
 import FigureImage from 'react-bootstrap/FigureImage'
 import membersImage from '../changableContent/members.jpeg'
 import clientsImage from '../changableContent/clients.jpg'
+import blogImage from '../changableContent/blog.png'
+import showcaseImage from '../changableContent/showcase.jpg'
+import Button from 'react-bootstrap/Button'
 
 import {homePageData} from '../changableContent/content.js'
 
@@ -34,7 +37,7 @@ const Home = () => (
     	<div className={homestyles.bold}> {homePageData.value1} </div>
     	<div className={homestyles.description}> 
 
-    	{homePageData.value1Discription}
+    	{homePageData.value1Description}
 
     	 </div>
     	 </Col>
@@ -42,7 +45,7 @@ const Home = () => (
     	<div className={homestyles.bold}> Collaborative </div>
     	<div className={homestyles.description}> 
 
-We bring together students with diverse perspectives and levels of experience to work towards accomplishing a common goal and become a part of a community. We encourage members to share their knowledge and to both seek out, provide, and accept help from others.    	
+		We bring together students with diverse perspectives and levels of experience to work towards accomplishing a common goal and become a part of a community. We encourage members to share their knowledge and to both seek out, provide, and accept help from others.    	
 
     	 </div>
     	 </Col>
@@ -50,7 +53,7 @@ We bring together students with diverse perspectives and levels of experience to
     	<div className={homestyles.bold}> Bold </div>
     	<div className={homestyles.description}> 
 
-We actively pursue challenges that push members to develop. We embrace failure and uncertainty as part of our process and actively work to learn from our mistakes    	
+		We actively pursue challenges that push members to develop. We embrace failure and uncertainty as part of our process and actively work to learn from our mistakes    	
 
     	 </div>
     	 </Col>
@@ -76,7 +79,8 @@ We actively pursue challenges that push members to develop. We embrace failure a
 	    alt="171x180"
 	    src={clientsImage}/>
 	    <br/><br/> <div className={homestyles.boldHeader}>Clients</div><br/>
-	    <div className={homestyles.description}> {homePageData.clientsText} </div>
+	    <div className={homestyles.description}> {homePageData.clientsText} </div> <br/>
+	    <Button variant="outline-secondary" href='/clients'>Learn more</Button>
     	</Col>
     	<Col>
     	<Figure.Image
@@ -85,12 +89,39 @@ We actively pursue challenges that push members to develop. We embrace failure a
 	    alt="171x180"
 	    src={membersImage}/>
 	    <br/><br/> <div className={homestyles.boldHeader}>Members</div><br/>
-	    <div className={homestyles.description}> {homePageData.membersText} </div>
+	    <div className={homestyles.description}> {homePageData.membersText} </div> <br/>
+	    <Button variant="outline-secondary"  href='/members'>Learn more</Button>
     	</Col>
     	</Row>
     	</Container>
     	<br/> <br/><br/>
-    	 <div style={{ borderTop: "2px solid #FFBF3C ", marginLeft: 20, marginRight: 20 }}></div>
+    	 <div style={{ borderTop: "2px solid #FFBF3C ", marginLeft: 20, marginRight: 20 }}></div><br/><br/>
+    	 <Container fluid>
+     	<Row>
+     	<Col> <br/><br/><br/><br/><div className={homestyles.bold}> Keeping Up with Us </div></Col>
+     	<Col> 
+     	 <Figure.Image
+	    width={605}
+	    height={440}
+	    alt="171x180"
+	    src={showcaseImage}/>
+	    <br/><br/> <div className={homestyles.boldHeader}>Show Case</div><br/>
+	    <div className={homestyles.description}> {homePageData.showcase} </div> <br/>
+	    <Button variant="outline-secondary" href={homePageData.showcaseLink}>Learn more</Button>
+     	</Col>
+     	<Col> 
+     	<Figure.Image
+	    width={605}
+	    height={440}
+	    alt="171x180"
+	    src={blogImage}/>
+     	<br/><br/> <div className={homestyles.boldHeader}>Blog</div><br/>
+	    <div className={homestyles.description}> {homePageData.blog} </div> <br/>
+	    <Button variant="outline-secondary" href={homePageData.blogLink}> Learn more</Button>
+     	</Col>
+     	</Row>
+     	</Container>
+
       </div> 
      
     </div>
