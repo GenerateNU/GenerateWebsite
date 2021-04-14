@@ -12,7 +12,11 @@ import { membersPageData } from '../changableContent/membersPageContent.js';
 import spotlightImage1 from '../changableContent/member1Spotlight.png';
 import spotlightImage2 from '../changableContent/member2Spotlight.png';
 import spotlightImage3 from '../changableContent/member3Spotlight.png';
+
 import managementTeamImage from '../changableContent/blog.png';
+import operationsTeamImage from '../changableContent/showcase.jpg';
+import outreachTeamImage from '../changableContent/blog.png';
+import hardwareTeamImage from '../changableContent/hardwareTeam.jpg'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,7 +28,6 @@ const Members = () => (
     <Container fluid>
       <Row>
         <Col>
-          {' '}
           <h2>Member Spotlight </h2>
         </Col>
 
@@ -110,7 +113,7 @@ const Members = () => (
 	                width={305}
 	                height={200}
 	                alt="171x180"
-	                src={managementTeamImage}
+	                src={hardwareTeamImage}
 	              />
 	              <br/><br/>
 	              <Figure.Image
@@ -137,7 +140,7 @@ const Members = () => (
 		                width={405}
 		                height={300}
 		                alt="171x180"
-		                src={managementTeamImage}
+		                src={operationsTeamImage}
 		              />
 		     </Col>
 		      <Col>
@@ -153,7 +156,7 @@ const Members = () => (
 		                width={405}
 		                height={300}
 		                alt="171x180"
-		                src={managementTeamImage}
+		                src={outreachTeamImage}
 		              />
 		     </Col>
 		      <Col>

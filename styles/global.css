@@ -27,6 +27,11 @@ nav a {
 a:hover {
    color: #0096FF
 }
+
+h3 {
+  justify-content: center;
+  align-items: center;
+}
 footer {
   background: #E5E5E5;
   margin: 20px auto 0px;

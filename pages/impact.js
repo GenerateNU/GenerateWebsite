@@ -1,8 +1,10 @@
+import homestyles from '../styles/Home.module.scss';
+import backgroundImage from '../public/images/ourImpactBackground.png';
+import Image from 'react-bootstrap/Image';
+
 const Impact = () => (
   <div>
-    <h1>Impact</h1>
-    <p>Impact Info goes here</p>
-
+    <Image src={backgroundImage} fluid />
   </div>
 );
 
