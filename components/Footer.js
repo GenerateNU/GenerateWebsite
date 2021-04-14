@@ -1,14 +1,16 @@
-import styles from '../styles/Navbar.module.scss';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import shermCenterLogo from '../public/images/ShermanCenterLogo.png';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from '../styles/Navbar.module.scss';
+
 import generateLogo from '../public/images/generatelogotext.png';
+import shermCenterLogo from '../public/images/ShermanCenterLogo.png';
 
 export default function Footer() {
   return (

@@ -1,6 +1,6 @@
+import Image from 'react-bootstrap/Image';
 import homestyles from '../styles/Home.module.scss';
 import backgroundImage from '../public/images/ourHistoryBackground.png';
-import Image from 'react-bootstrap/Image';
 
 const History = () => (
   <div>
